@@ -1,6 +1,8 @@
-package com.hygenics.proxyclient;
+package org.aevans.goat.proxyclient;
 
 
+import org.aevans.goat.jdbc.DatabaseHandler;
+import org.aevans.goat.matutils.RandomWeightedChoice;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,10 +15,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
-
-import com.hygenics.jdbc.DatabaseHandler;
-import com.hygenics.matutils.RandomWeightedChoice;
-
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RequestMethod;

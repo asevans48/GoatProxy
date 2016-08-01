@@ -1,4 +1,4 @@
-package com.hygenics.jdbc;
+package org.aevans.goat.jdbc;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

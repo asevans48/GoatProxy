@@ -1,4 +1,4 @@
-package com.hygenics.matutils;
+package org.aevans.goat.matutils;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.hygenics.proxyclient;
+package org.aevans.goat.proxyclient;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,12 +8,10 @@ import org.springframework.util.Assert;
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 
+import org.aevans.goat.jdbc.DatabaseHandler;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-
-
-import com.hygenics.jdbc.DatabaseHandler;
 import org.springframework.jdbc.core.JdbcTemplate;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
